@@ -2,8 +2,8 @@
 [ORG 0x7E00]
 
 dw 1100110011110000b ; this is used to verify that the boot succeeded -
-										 ; if the loader reads this, it knows that the kernel
-										 ; was successfully copied to memory.
+					 ; if the loader reads this, it knows that the kernel
+					 ; was successfully copied to memory.
 
 mov al, [0x7DFD]
 mov [disk], al
@@ -259,7 +259,7 @@ disk_read:
 disk: db 0
 
 start_msg: db "MyOS v1.0", 10
-					db "use 'help' for a list of commands", 10, 0
+		   db "use 'help' for a list of commands", 10, 0
 
 help_msg: db "MyOS v1.0", 10
 		  db "Commands:", 10

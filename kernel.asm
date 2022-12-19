@@ -136,7 +136,7 @@ print:
 	cmp al, 10
 	jne .not_nl
 	call nl
-	.not_nl
+	.not_nl:
 	int 0x10
 	jmp .loop
 .end:
@@ -262,13 +262,13 @@ start_msg: db "MyOS v1.0", 10
 					db "use 'help' for a list of commands", 10, 0
 
 help_msg: db "MyOS v1.0", 10
-				  db "Commands:", 10
-				  db "----------------------------", 10
-				  db "echo <string>", 10
-				  db "prints message in console", 10
-				  db "----------------------------", 10
-				  db "clear", 10
-				  db "clears console", 10
-				  db "----------------------------", 10, 0
+		  db "Commands:", 10
+		  db "----------------------------", 10
+		  db "echo <string>", 10
+		  db "prints message in console", 10
+		  db "----------------------------", 10
+		  db "clear", 10
+		  db "clears console", 10
+		  db "----------------------------", 10, 0
 
 times 4096-($-$$) db 0

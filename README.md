@@ -11,5 +11,6 @@ The kernel relies heavily on BIOS interrupts.
 
 ### To-Do List
 
+- add a license for the code
 - add command to execute scripts (that use shell commands)
 - add a way to print numbers and do more math

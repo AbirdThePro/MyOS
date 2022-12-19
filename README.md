@@ -14,3 +14,4 @@ The kernel relies heavily on BIOS interrupts.
 - add a license for the code
 - add command to execute scripts (that use shell commands)
 - add a way to print numbers and do more math
+- add more shell commands to customize the terminal

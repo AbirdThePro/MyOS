@@ -53,7 +53,7 @@ shell:
 call shell_clear_command
 
 ; allows user to enter command
-mov si, command_beginning
+mov si, command_beginning_msg
 mov di, command
 mov bx, 64
 call input
@@ -307,4 +307,4 @@ help_msg: db "MyOS v1.0", 10
 		  db "----------------------------", 10, 0
 
 ; pads with null bytes until 0x8E00
-times 4096-($-$$) db 0
+times 1024-($-$$) db 0

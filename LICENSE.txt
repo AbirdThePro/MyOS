@@ -1,5 +1,0 @@
-License for MyOS
-
-All code and files in this project are the intellectual property of AbirdThePro, and cannot be copied, redistributed, or modified without his permission.
-
-abirdthepro.github.io

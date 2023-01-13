@@ -1,7 +1,7 @@
 # License for MyOS
 ## AbirdThePro
 
-All code and files in this project are [https://creativecommons.org/licenses/by-nd/4.0/](CC-BY-ND) 4.0 and property of [abirdthepro.github.io](AbirdThePro).
+All code and files in this project are [CC-BY-ND](https://creativecommons.org/licenses/by-nd/4.0/) 4.0 and property of [AbirdThePro](https://abirdthepro.github.io).
 
 Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 
